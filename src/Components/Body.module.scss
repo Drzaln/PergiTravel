@@ -1,0 +1,34 @@
+.body{
+    padding: 16px;
+    background-color: #4F3CA0;
+    display: flex;
+    justify-content: center;
+}
+
+.pilih{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #7463c0;
+    width: 85%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+%select{
+    font-weight: bold;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.kepilih{
+    @extend %select;
+    color: #fff;
+}
+
+.non{
+    @extend %select;
+    color: #9783C3;
+}
+

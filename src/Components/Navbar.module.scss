@@ -1,0 +1,27 @@
+.navbar{
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: auto;
+    height: 60px;
+    padding: 8px;
+    justify-content: space-around;
+    display: flex;
+    box-shadow: 0px 2px 8px #4a4a4a40;
+    position: relative;
+}
+
+.logo{
+    width: 25vh;
+    cursor: pointer;
+}
+
+.menu{
+    width: 4vh;
+    cursor: pointer;
+}
+
+.user{
+    width: 4vh;
+    cursor: pointer;
+}
