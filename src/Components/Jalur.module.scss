@@ -1,3 +1,25 @@
 .jalur{
-    width: 85%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.balik{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4F3CA0;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 158px;
+    right: 7vh;
+}
+
+.logo{
+    width: 14px;
+    cursor: pointer;
 }
