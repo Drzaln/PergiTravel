@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, FormGroup, FormText, Label, Input } from 'reactstrap'
+import { Input } from 'reactstrap'
 import styles from './Jalur.module.scss'
 
 export default function Jalur () {
