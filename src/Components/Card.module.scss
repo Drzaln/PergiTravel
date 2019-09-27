@@ -1,0 +1,116 @@
+.card{
+    width: 90%;
+    box-shadow: 0px 2px 8px #4a4a4a40;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+.namaPesawat{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.gambar{
+    width: 7vh;
+    margin-right: 8px;
+}
+
+.namaPwt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 4px;
+    color: #000;
+}
+
+.keterangan{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bnd{
+    width: fit-content;
+    padding: 8px;
+}
+
+.namaBnd{
+    display: flex;
+}
+
+.nama{
+    font-size: 23px;
+    font-weight: bold;
+    color: #4F3CA0;
+}
+
+.jam{
+    margin-left: 8px;
+    margin-top: auto;
+    font-size: 14px;
+    color: #000;
+}
+
+.kota{
+    color: #4F3CA0;
+    font-size: 11px;
+}
+
+.bndFull{
+    color: #818181;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.waktu{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 10px;
+    color: #4F3CA0;
+    padding: 8px;
+    width: fit-content;
+    justify-content: center;
+}
+
+.estimate{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.harga{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f8f8f8;
+    padding: 8px;
+}
+
+%kecil{
+    font-size: 11px;
+}
+
+%hrg{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.textnormal{
+    @extend %kecil;
+    color: #000;
+}
+
+.hrgNormal{
+    @extend %hrg;
+    color: #000;
+}
+
+.bank{
+    @extend %kecil;
+    color: #4F3CA0;
+}
+
+.hrgBank{
+    @extend %hrg;
+    color: #4F3CA0;
+}

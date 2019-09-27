@@ -1,22 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import styles from './Navbar.module.scss'
+import styles from './Appbar.module.scss'
 
-export default function Navbar (props) {
+export default function Appbar () {
   return (
     <div>
       <div className={styles.navbar}>
+        <img
+          src={require('../Assets/menu.svg')}
+          alt='Menu'
+          className={styles.menu}
+        />
         <Link to='/'>
           <img
-            src={require('../Assets/back.svg')}
-            alt='back'
-            className={styles.menu}
+            src={require('../Assets/ic_logo.png')}
+            alt='Logo'
+            className={styles.logo}
           />
         </Link>
-        <div>
-          <div className={styles.judul}>{props.judul}</div>
-          <div className={styles.isi}>{props.isi}</div>
-        </div>
         <img
           src={require('../Assets/user.svg')}
           alt='Profile'

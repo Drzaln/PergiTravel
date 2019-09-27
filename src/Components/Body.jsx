@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Body.module.scss'
 import Jalur from "./Jalur";
 import Tanggal from "./Tanggal";
+import Button from "./Button";
 
 export default function Body () {
   return (
@@ -12,6 +13,7 @@ export default function Body () {
       </div>
       <Jalur/>
       <Tanggal/>
+      <Button/>
     </div>
   )
 }
