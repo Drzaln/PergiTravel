@@ -1,0 +1,46 @@
+{
+    "data": [
+      {
+        "tobndShort": "CGK",
+        "toTime": "20:35",
+        "toPlace": "Jakarta",
+        "tobndLong": "Soekarno Hatta",
+        "time": "2h 05m",
+        "flight": "Langsung",
+        "frombndShort": "DPS",
+        "fromTime": "00:35",
+        "fromPlace": "Bali",
+        "frombndLong": "Ngurah Rai Int",
+        "normalPrice": "1.502.050",
+        "bankPrice": "1.472.009"
+      },
+      {
+        "tobndShort": "HLP",
+        "toTime": "21:35",
+        "toPlace": "Jakarta",
+        "tobndLong": "Halim Perdanakusuma",
+        "time": "2h 15m",
+        "flight": "Transit",
+        "frombndShort": "DPS",
+        "fromTime": "01:35",
+        "fromPlace": "Bali",
+        "frombndLong": "Ngurah Rai Int",
+        "normalPrice": "1.602.050",
+        "bankPrice": "1.572.009"
+      },
+      {
+        "tobndShort": "CGK",
+        "toTime": "20:35",
+        "toPlace": "Jakarta",
+        "tobndLong": "Soekarno Hatta",
+        "time": "2h 05m",
+        "flight": "Langsung",
+        "frombndShort": "DPS",
+        "fromTime": "00:35",
+        "fromPlace": "Bali",
+        "frombndLong": "Ngurah Rai Int",
+        "normalPrice": "1.502.050",
+        "bankPrice": "1.472.009"
+      }
+    ]
+  }

@@ -6,7 +6,7 @@ export default function Navbar (props) {
   return (
     <div>
       <div className={styles.navbar}>
-        <Link to='/'>
+        <Link to={props.to} replace>
           <img
             src={require('../Assets/back.svg')}
             alt='back'

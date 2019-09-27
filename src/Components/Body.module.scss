@@ -1,35 +1,61 @@
-.body{
-    padding: 16px;
-    background-color: #4F3CA0;
-    justify-content: center;
-    height: 91vh;
+.body {
+  padding: 16px;
+  background-color: #4f3ca0;
+  justify-content: center;
+  height: 91vh;
 }
 
-.pilih{
-    display: flex;
-    justify-content: space-around;
-    background-color: #7463c0;
-    width: 90%;
-    border-radius: 8px;
-    margin-bottom: 16px;
-    padding: 8px;
-    margin-left: auto;
-    margin-right: auto;
+.pilih {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7463c0;
+  width: 90%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: fade-in-left 0.7s cubic-bezier(0.39, 0.575, 0.565, 0.7) both;
+  animation: fade-in-left 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-%select{
-    font-weight: bold;
-    margin-bottom: 0;
-    cursor: pointer;
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-.kepilih{
-    @extend %select;
-    color: #fff;
+%select {
+  font-weight: bold;
+  margin-bottom: 0;
+  cursor: pointer;
 }
 
-.non{
-    @extend %select;
-    color: #9783C3;
-}   
+.kepilih {
+  @extend %select;
+  color: #fff;
+}
 
+.non {
+  @extend %select;
+  color: #9783c3;
+}

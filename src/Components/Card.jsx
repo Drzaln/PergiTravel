@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Card (props) {
   return (
     <div>
-    <Link to='/' >
+    <Link to='/detail' >
     <div className={styles.card}>
       <div className={styles.namaPesawat}>
         <img
@@ -13,37 +13,37 @@ export default function Card (props) {
           alt='Nama-Pesawat'
           className={styles.gambar}
         />
-        <text className={styles.namaPwt}>Citilink</text>
+        <p className={styles.namaPwt}>Citilink</p>
       </div>
       <div className={styles.keterangan}>
         <div className={styles.Bnd}>
           <div className={styles.namaBnd}>
-            <text className={styles.nama}>{props.FromPwtShort}</text>
-            <text className={styles.jam}>{props.FromClock}</text>
+            <p className={styles.nama}>{props.FromPwtShort}</p>
+            <p className={styles.jam}>{props.FromClock}</p>
           </div>
-          <text className={styles.kota}>{props.FromCity}</text>
+          <p className={styles.kota}>{props.FromCity}</p>
           <p className={styles.bndFull}>{props.FromBnd}</p>
         </div>
         <div className={styles.waktu}>
-          <text className={styles.estimate}>{props.estimate}</text>
+          <p className={styles.estimate}>{props.estimate}</p>
           <p>{props.flight}</p>
         </div>
         <div className={styles.Bnd}>
           <div className={styles.namaBnd}>
-            <text className={styles.nama}>{props.ToPwtShort}</text>
-            <text className={styles.jam}>{props.ToClock}</text>
+            <p className={styles.nama}>{props.ToPwtShort}</p>
+            <p className={styles.jam}>{props.ToClock}</p>
           </div>
-          <text className={styles.kota}>{props.ToCity}</text>
+          <p className={styles.kota}>{props.ToCity}</p>
           <p className={styles.bndFull}>{props.ToBnd}</p>
         </div>
       </div>
       <div className={styles.harga}>
         <div>
-          <text className={styles.textnormal}>Normal</text>
+          <p className={styles.textnormal}>Normal</p>
           <p className={styles.hrgNormal}>Rp {props.hrgNormal}</p>
         </div>
         <div>
-          <text className={styles.bank}>CC Bank Mega</text>
+          <p className={styles.bank}>CC Bank Mega</p>
           <p className={styles.hrgBank}>{props.hrgBank}</p>
         </div>
       </div>
