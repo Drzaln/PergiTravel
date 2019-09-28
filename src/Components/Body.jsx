@@ -13,7 +13,7 @@ export default function Body () {
       </div>
       <Jalur/>
       <Tanggal/>
-      <Button/>
+      <Button to='/ticket-list' title='Cari Tiket Pesawat' />
     </div>
   )
 }

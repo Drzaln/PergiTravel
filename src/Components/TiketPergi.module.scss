@@ -37,6 +37,36 @@
   margin-bottom: 0px;
 }
 
+.body {
+  -webkit-animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .teks {
   @extend %basic-text;
   margin-top: auto;
@@ -155,4 +185,38 @@
 .pesawat {
   width: 3vh;
   margin-right: 6px;
+}
+
+.pesan {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  max-width: 450px;
+  -webkit-animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.teksTotal {
+  color: #555555;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+
+.hrgTotal {
+  color: #4f3ca0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
