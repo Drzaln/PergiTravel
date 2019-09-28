@@ -2,7 +2,7 @@
   "name": "Pergi App",
   "short_name": "Pergi",
   "theme_color": "#4F3CA0",
-  "background_color": "#ffffff",
+  "background_color": "#4F3CA0",
   "display": "standalone",
   "orientation": "portrait",
   "prefer_related_applications": false,
