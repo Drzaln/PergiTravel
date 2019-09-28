@@ -2,7 +2,7 @@
 .firebaserc
 firebase.json
 hosting.YnVpbGQ.cache
-
+package-lock.json
 
 # dependencies
 /node_modules
