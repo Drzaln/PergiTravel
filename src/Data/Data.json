@@ -13,7 +13,9 @@
         "toPlace": "Bali",
         "tobndLong": "Ngurah Rai Int",
         "normalPrice": "1.502.050",
-        "bankPrice": "1.472.009"
+        "bankPrice": "1.472.009",
+        "noPesawat": "Citilink QC 196",
+        "kelas": "Ekonomi"
       },
       {
         "id": 2,
@@ -28,7 +30,9 @@
         "toPlace": "Bali",
         "tobndLong": "Ngurah Rai Int",
         "normalPrice": "1.602.050",
-        "bankPrice": "1.572.009"
+        "bankPrice": "1.572.009",
+        "noPesawat": "Citilink QC 43",
+        "kelas": "Bisnis"
       },
       {
         "id": 3,
@@ -43,7 +47,9 @@
         "toPlace": "Bali",
         "tobndLong": "Ngurah Rai Int",
         "normalPrice": "1.502.050",
-        "bankPrice": "1.472.009"
+        "bankPrice": "1.472.009",
+        "noPesawat": "Citilink QC 207",
+        "kelas": "Ekonomi"
       }
     ]
   }

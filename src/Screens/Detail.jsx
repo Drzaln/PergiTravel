@@ -21,6 +21,8 @@ export default function Detail () {
           tobndNameFull={stored.tobndLong}
           toTime={stored.toTime}
           hrgTotal={stored.normalPrice}
+          noPesawat={stored.noPesawat}
+          kelas={stored.kelas}
         />
       </div>
     </div>

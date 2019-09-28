@@ -54,8 +54,8 @@ export default function TiketPergi (props) {
                 />
               </div>
               <div className={styles.namaPwt}>
-                <p className={styles.kota}>Citilink QC 196</p>
-                <p className={styles.bndFull}>Ekonomi</p>
+                <p className={styles.kota}>{props.noPesawat}</p>
+                <p className={styles.bndFull}>{props.kelas}</p>
               </div>
             </div>
             <div className={styles.divider} />
@@ -89,7 +89,7 @@ export default function TiketPergi (props) {
               <p className={styles.teksTotal} >Total</p>
               <p className={styles.hrgTotal} >Rp {props.hrgTotal}</p>
             </div>
-            <Button title='Pesan Sekarang' />
+            <Button to='_' title='Pesan Sekarang' />
           </div>
         </div>
       </div>
