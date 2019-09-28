@@ -12,11 +12,11 @@ export default function TiketPergi (props) {
         <div className={styles.card}>
           <div>
             <p className={styles.judul}>Berangkat</p>
-            <p className={styles.nama}>{props.tobndName}</p>
-            <p className={styles.kota}>{props.tocity}</p>
-            <p className={styles.bndFull}>{props.tobndNameFull}</p>
+            <p className={styles.nama}>{props.frombndName}</p>
+            <p className={styles.kota}>{props.fromcity}</p>
+            <p className={styles.bndFull}>{props.frombndNameFull}</p>
             <div>
-              <p className={styles.jam}>{props.toTime}</p>
+              <p className={styles.jam}>{props.fromTime}</p>
               <p className={styles.bndFull}>Jumat, 30 Nov 2019</p>
             </div>
           </div>
@@ -33,11 +33,11 @@ export default function TiketPergi (props) {
           </div>
           <div>
             <p className={styles.judul}>Tiba</p>
-            <p className={styles.nama}>{props.frombndName}</p>
-            <p className={styles.kota}>{props.fromcity}</p>
-            <p className={styles.bndFull}>{props.frombndNameFull}</p>
+            <p className={styles.nama}>{props.tobndName}</p>
+            <p className={styles.kota}>{props.tocity}</p>
+            <p className={styles.bndFull}>{props.tobndNameFull}</p>
             <div>
-              <p className={styles.jam}>{props.fromTime}</p>
+              <p className={styles.jam}>{props.toTime}</p>
               <p className={styles.bndFull}>Sabtu, 1 Des 2019</p>
             </div>
           </div>
